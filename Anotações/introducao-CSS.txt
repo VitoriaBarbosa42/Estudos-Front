@@ -1,0 +1,71 @@
+CSS sintaxe:
+
+regra     desclaração               
+seletor { propriedade: valor; }
+
+h1 { 
+    color: red;
+    font-size: 16px;
+}
+
+formas de aplicar estilos a pagina web:
+
+Inline (Em linha) - forma menos recomendada
+
+Direto no atributo style de uma tag HTML especifica
+
+Ex:
+
+<p style="color: blue; font-size: 16px;">Texto aqui</p>
+
+Interno (Incorporado)
+
+Dentro da tag <style> na seção <head> do arquivo HTML
+
+<head>
+  <style>
+    h1 { color: red; }
+    p { font-family: Arial; }
+  </style>
+</head>
+
+Externo
+
+Em um arquivo separado com extensão .css (ex: estilos.css)
+
+Crie estilos.css e link-o no HTML com <link rel="stylesheet" href="estilos.css"> no <head>
+
+Seletores de Elementos:
+
+HTML:
+<p> ... </p>
+
+CSS:
+p {...}
+
+Seletores de classes:
+
+Em um arquivo HTML, pode haver mais de um elemento com a mesmo nome de classe
+Seria como um apilido do elemento.
+
+HTML:
+
+<p class="minha-classe"> ... </p>
+
+CSS:
+
+.minha-classe { ... }
+
+Seletores de id:
+
+Só pode haver um id por pagina
+Seria como um CPF de uma pessoa
+
+HTML:
+
+<p id="meu-id"> ... </p>
+
+CSS:
+
+
+#meu-id { ... }
