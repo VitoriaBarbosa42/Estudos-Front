@@ -69,3 +69,31 @@ CSS:
 
 
 #meu-id { ... }
+
+Propriedades do CSS:
+
+
+fonts - Altera as configurações das fontes
+
+	font-family : Formata a família da fonte
+	font-size : formata o tamanho
+	font-style : Italico
+	font-weight : Negrito
+
+text - Formatação de texto
+
+	text-align : Para direita, esquerda ou centralizado
+	text-decoration : Coloca e tira underline ou linha em cima do texto, etc
+	text-indent : define uma endentação no inicio de cada paragrafo por exemplo
+	text-transform : Permite coocar um texto em maiúsculo, minúsculo...
+
+color 
+
+#RGB:
+	#FFFFFF - Branco
+	#FF0000 - vermelho
+	#00FF00 - verde
+	#0000FF - azul
+	#FFFF00 - amarelo
+	#FF00FF - rosa
+	#00FFFF -cyan
