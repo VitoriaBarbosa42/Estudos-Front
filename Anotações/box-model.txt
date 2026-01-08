@@ -1,0 +1,55 @@
+- O que é?
+
+É um conceito de desenvolvimento WEB onde trata cada elemento do HTML com um retanculo, composto por quatro camadas:
+margin, padding, width e height
+
+- Conceitos das camadas:
+
+width - altura
+height - largura 
+
+Exemplo:
+
+p {
+    weight: 200px;
+    height: 150px;
+}
+
+p {
+    weight: 50%;
+    height: 150px;
+}
+
+Com porcentagem ele fica relativo ao body, com px ele não varia
+
+padding - controla o preenchimento de elemento, que envolve o conteúdo
+
+p{
+    padding-top:50px;
+    padding-right:40px;
+    padding-bottom:30px;
+    padding-left:20px;
+}
+
+Atalho:
+
+p{
+    padding: 50px 40px 30px 20px;
+}
+
+margin - controla a área de margem de um elemento, que influencia no espaçamento entre 
+esse e os demais elementos ao seu redor
+
+p{
+    margin-top:50px;
+    margin-right:40px
+    margin-bottom:30px;
+    margin-left:20px;
+}
+
+Atalho:
+
+p{
+    margin: 50px 40px 30px 20px;
+}
+
