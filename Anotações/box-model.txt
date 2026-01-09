@@ -53,3 +53,43 @@ p{
     margin: 50px 40px 30px 20px;
 }
 
+- Border
+A propriedade border define o estilo da borda de um elemento
+
+h1{
+    border-width: 5px;  Espassura
+    border-style: dotted;   Tipo
+    border-color: red;   Cor
+}
+
+abreveação
+h1{ border: 5px dotted red; }
+
+border-style:
+
+none;
+hidden;
+dotted;
+dashed;
+solid;
+double;
+groove;
+ridge;
+inset;
+outset.
+
+Definir border individualmente:
+
+h1{
+    border-top-style: solid;
+    border-right-width: 5px;
+    border-bottom-color: red;
+    border-left-color: #ff00ff:
+    border-right-color: #f0f
+}
+
+versão simplificada:
+
+h1{
+    border-top: 10px solid blue;
+}
