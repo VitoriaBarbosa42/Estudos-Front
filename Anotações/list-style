@@ -1,0 +1,17 @@
+O que é list-style?
+
+ É uma propriedade CSS abreviada que controla a aparência dos marcadores (símbolos ou números) 
+ em listas HTML (<ul>, <ol>), permitindo definir tipo (list-style-type), 
+ imagem (list-style-image) e posição (list-style-position) em uma única declaração para 
+ personalizar visualmente as listas de um site, como mudar de bolinhas para quadrados ou 
+ imagens, e ajustar seu alinhamento. 
+
+ Exemplos:
+
+ list-style-type
+ list-style-position
+ list-style-image
+
+ Atalho:
+ 
+ list-style: type position image

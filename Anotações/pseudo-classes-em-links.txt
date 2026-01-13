@@ -1,0 +1,16 @@
+O que é Pseudo classes em links?
+
+Pseudo-classes em links são palavras-chave especiais no CSS 
+(como :link, :visited, :hover, :active, :focus) que permitem estilizar links () 
+com base no estado em que eles se encontram, como não visitado, visitado, quando o
+mouse está por cima, quando está sendo clicado ou quando está em foco, sem precisar 
+adicionar classes extras no HTML, proporcionando uma experiência visual 
+dinâmica e interativa. 
+
+Exemplos:
+
+a:link{...} 
+    a:visited{...} 
+        a:hover{...} 
+            a:active{...} 
+                a:focus{...} 
