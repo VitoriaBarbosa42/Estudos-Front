@@ -2,16 +2,21 @@ body{
     font-family: Arial, 
     sans-serif;
     font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h1{
     text-align: center;
     background-color: darkturquoise;
+    padding: 5px;
 }
 
 h2{
     background-color: aqua;
     font-size: 18px;
+    padding: 5px;
 }
 
 h3{
@@ -30,4 +35,15 @@ h3{
 
 p{
     font-size: 15px;
+}
+
+.topico::before {
+  content: "";         /* Necessário para o elemento aparecer */
+  width: 6px;          /* Largura do ponto */
+  height: 6px;         /* Altura do ponto */
+  background-color: black; 
+  border-radius: 50%;  /* Deixa o quadrado redondo */
+  display: inline-block;
+  margin-right: 15px;  /* Espaço entre o ponto e o texto */
+  margin-left: 10px;
 }
