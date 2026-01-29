@@ -1,0 +1,59 @@
+Duas formas para inserir imagens:
+
+HTML
+
+<img src="Caminha da imagem" alt="Texto para se haver problena na vizualização da imagem">
+
+- alt também é usado como um Texto descritivo da imagem para acessibilidade e para facilitar em pesquisas no google.
+
+Quando utilizar?
+
+Quando a imagem dazer parte do conteudo do que é apresentado na pagina HTML
+    
+CSS
+
+background-image: url(Caminha de imagem);
+
+Quando utilizar?
+
+---- Quando a imagem fazer parte do design da pagina
+
+-- Imagens Raster (Bitmap)
+
+São compostas por uma grade de pontos individuais chamados pixels. Cada pixel possui uma cor e posição específica.
+
+Características: Ricas em detalhes e variações de cores (fotografias).
+
+Limitação: Perdem qualidade ao serem ampliadas (pixelização).
+
+Formatos comuns:
+
+JPEG: Alta compressão, ideal para fotos na web. Não suporta transparência.
+
+PNG: Suporta transparência e mantém a qualidade, mas gera arquivos maiores.
+
+GIF: Limitado a 256 cores, usado para animações simples.
+
+WebP: Formato moderno que oferece alta qualidade com arquivos menores que o JPEG.
+
+-- Imagens Vetoriais
+
+Não utilizam pixels, mas sim fórmulas matemáticas para definir caminhos, pontos, linhas e formas geométricas.
+
+Características: Podem ser ampliadas infinitamente sem perder nenhuma nitidez.
+
+Uso ideal: Logotipos, ícones, ilustrações técnicas e fontes.
+
+Formatos comuns:
+
+SVG: Padrão para a web, leve e escalável.
+
+AI / EPS: Formatos profissionais de edição (Adobe Illustrator).
+
+PDF: Pode conter tanto vetores quanto bitmaps.
+
+Site para consultar se o formato é suportado pelo navegador:
+
+https://caniuse.com/
+
+
