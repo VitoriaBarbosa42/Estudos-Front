@@ -1,0 +1,64 @@
+-- Tags semânticas:
+
+O HTML semântico tem como objetivo descrever o significado do conteúdo presente em documentos 
+HTML, tornando-o mais claro tanto para programadores quanto para browsers e outras engines 
+que processam essa informação.
+
+-- Tipos de Tags
+
+* <header> - é um elemento semântico do HTML5 utilizado para agrupar conteúdos introdutórios 
+ou de navegação de uma página ou de uma seção específica.
+
+Você não está limitado a usar apenas um por página. Você pode ter um <header> global para o 
+site e outros menores dentro de artigos (<article>) ou seções (<section>).
+
+* <section> - é utilizada para agrupar conteúdos que possuem uma temática comum dentro de 
+uma página. Ela representa um bloco genérico de um documento que não possui uma tag semântica 
+mais específica
+
+* <article> - quando precisamos declarar um conteúdo que não precisa de outro para fazer 
+sentido em um documento HTML, por exemplo, um artigo em um blog. A ideia principal é 
+que, se você removesse esse bloco do site e o colocasse em outro lugar, ele ainda 
+faria sentido sozinho. Frequentemente possui seu próprio <header> (com título e data) 
+e, às vezes, seu próprio <footer>.
+
+* <nav> - É o elemento semântico destinado especificamente para agrupar links de navegação.
+Geralmente são criados com os elementos <ul>, <li> e <a>. 
+
+* <aside> - é utilizado quando precisamos criar um conteúdo de apoio/adicional ao conteúdo 
+principal. Por exemplo, ao falar de HTML semântico, podemos indicar ao leitor outros 
+conteúdos sobre a linguagem HTML como sugestão de leitura complementar.
+
+Dentro de um <article>: O conteúdo do <aside> deve ser especificamente relacionado 
+àquele artigo (ex: um glossário de termos técnicos usados no texto).
+
+Fora de um <article>: Atua geralmente como a barra lateral do site 
+(ex: lista de posts recentes, categorias ou biografia do autor).
+ 
+* <main> - especifica o conteúdo principal e, consequentemente, de maior relevância 
+dentro da página. Para ser considerada bem construída, uma página deve apresentar apenas 
+um conteúdo principal.
+Ela deve ser descendente direta do <body>. Não deve ser colocada dentro de elementos 
+como <header>, <nav>, <article> ou <footer>.
+
+* <footer> - é utilizada para marcar o rodapé de uma página ou de uma seção específica. 
+Ela geralmente encerra um bloco de conteúdo, fornecendo informações complementares ou 
+metadados.
+
+* <figure> - é uma marcação de uso específico para a inserção de uma figura. 
+Para incluir a descrição dessa figura, podemos utilizar o elemento <figcaption>.
+
+* <cite>, <q> - é utilizado para declarar que naquele trecho há uma citação, isto é, 
+um trecho de texto que não foi escrito pelo autor do conteúdo. Normalmente utiliza-se 
+o <cite> em conjunto com o elemento <q>, responsável por apresentar o conteúdo retirado 
+de outra fonte.
+
+ex:
+
+<p>
+<q>Lorem ipsum dolor sit amet, consectetur </q> - <cite>http://br.lipsum.com/</cite>.
+</p>
+
+* <time> - é utilizado para representar datas. Assim, caso seja necessário informar a data em 
+que um conteúdo foi escrito, podemos declarar a tag <time> e acrescentar a ela o 
+atributo datetime para escrever a data de forma padronizada.
